@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/babo/projects/DA_G62_Second'
+make: Leaving directory '/home/babo/projects/DA_G62_Second'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

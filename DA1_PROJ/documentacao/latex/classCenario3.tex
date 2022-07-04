@@ -1,0 +1,84 @@
+\hypertarget{classCenario3}{}\doxysection{Cenario3 Class Reference}
+\label{classCenario3}\index{Cenario3@{Cenario3}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCenario3_a794b2e2b1127834fcdb3ad3e1e20080b}{Cenario3}} (const \mbox{\hyperlink{classEmpresa}{Empresa}} \&e)
+\item 
+vector$<$ int $>$ \mbox{\hyperlink{classCenario3_ab835e3f2894f87a1b31b5af2940945aa}{greedy\+Min\+Avg\+Time}} ()
+\item 
+int \mbox{\hyperlink{classCenario3_aee7d04840f772c5213e423853ba91a9a}{encomendas\+Por\+Entregar}} ()
+\item 
+vector$<$ double $>$ \mbox{\hyperlink{classCenario3_a73f1c82a8fdf0cf2b4f4785150ebe4ca}{get\+Quocientes}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classCenario3_a6d69e9f02940d5ecffff9f6b53f4274e}{sort\+By\+Duracao}} (const \mbox{\hyperlink{classExpressoEncomenda}{Expresso\+Encomenda}} $\ast$e1, const \mbox{\hyperlink{classExpressoEncomenda}{Expresso\+Encomenda}} $\ast$e2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCenario3_a794b2e2b1127834fcdb3ad3e1e20080b}\label{classCenario3_a794b2e2b1127834fcdb3ad3e1e20080b}} 
+\index{Cenario3@{Cenario3}!Cenario3@{Cenario3}}
+\index{Cenario3@{Cenario3}!Cenario3@{Cenario3}}
+\doxysubsubsection{\texorpdfstring{Cenario3()}{Cenario3()}}
+{\footnotesize\ttfamily Cenario3\+::\+Cenario3 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classEmpresa}{Empresa}} \&}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Constructor Montar argumentos necessarios para o funcionamento do cenario 3 
+\begin{DoxyParams}{Parameters}
+{\em e} & \mbox{\hyperlink{classEmpresa}{Empresa}} a ser estudada \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCenario3_aee7d04840f772c5213e423853ba91a9a}\label{classCenario3_aee7d04840f772c5213e423853ba91a9a}} 
+\index{Cenario3@{Cenario3}!encomendasPorEntregar@{encomendasPorEntregar}}
+\index{encomendasPorEntregar@{encomendasPorEntregar}!Cenario3@{Cenario3}}
+\doxysubsubsection{\texorpdfstring{encomendasPorEntregar()}{encomendasPorEntregar()}}
+{\footnotesize\ttfamily int Cenario3\+::encomendas\+Por\+Entregar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função responsável por retornar o número de encomendas que ainda não foram entregues \begin{DoxyReturn}{Returns}
+o número de encomendas por entregar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario3_a73f1c82a8fdf0cf2b4f4785150ebe4ca}\label{classCenario3_a73f1c82a8fdf0cf2b4f4785150ebe4ca}} 
+\index{Cenario3@{Cenario3}!getQuocientes@{getQuocientes}}
+\index{getQuocientes@{getQuocientes}!Cenario3@{Cenario3}}
+\doxysubsubsection{\texorpdfstring{getQuocientes()}{getQuocientes()}}
+{\footnotesize\ttfamily vector$<$ double $>$ Cenario3\+::get\+Quocientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função responsável por retornar o vetor dos quocientes entre as encomendas entregues e não entregues \begin{DoxyReturn}{Returns}
+o vetor dos quocientes dos dias 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario3_ab835e3f2894f87a1b31b5af2940945aa}\label{classCenario3_ab835e3f2894f87a1b31b5af2940945aa}} 
+\index{Cenario3@{Cenario3}!greedyMinAvgTime@{greedyMinAvgTime}}
+\index{greedyMinAvgTime@{greedyMinAvgTime}!Cenario3@{Cenario3}}
+\doxysubsubsection{\texorpdfstring{greedyMinAvgTime()}{greedyMinAvgTime()}}
+{\footnotesize\ttfamily vector$<$ int $>$ Cenario3\+::greedy\+Min\+Avg\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função responsável por minimizar o tempo das entregas expresso @complexity Time\+:O(\+E); \begin{DoxyReturn}{Returns}
+o tempo medio minimizado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario3_a6d69e9f02940d5ecffff9f6b53f4274e}\label{classCenario3_a6d69e9f02940d5ecffff9f6b53f4274e}} 
+\index{Cenario3@{Cenario3}!sortByDuracao@{sortByDuracao}}
+\index{sortByDuracao@{sortByDuracao}!Cenario3@{Cenario3}}
+\doxysubsubsection{\texorpdfstring{sortByDuracao()}{sortByDuracao()}}
+{\footnotesize\ttfamily bool Cenario3\+::sort\+By\+Duracao (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classExpressoEncomenda}{Expresso\+Encomenda}} $\ast$}]{e1,  }\item[{const \mbox{\hyperlink{classExpressoEncomenda}{Expresso\+Encomenda}} $\ast$}]{e2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Função para ordenar por duração 
+\begin{DoxyParams}{Parameters}
+{\em e1} & encomenda 1 \\
+\hline
+{\em e2} & encomenda 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+codigo/cenarios.\+h\item 
+codigo/cenario3.\+cpp\end{DoxyCompactItemize}

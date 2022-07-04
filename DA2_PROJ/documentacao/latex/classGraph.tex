@@ -1,0 +1,213 @@
+\hypertarget{classGraph}{}\doxysection{Graph Class Reference}
+\label{classGraph}\index{Graph@{Graph}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classGraph_abd7ac2706672c24da045244b21f78dff}{min\+Duration}} (int s, int t)
+\item 
+int \mbox{\hyperlink{classGraph_af517ce2e9eb2cb0a550adcf6ec79daff}{latest\+Finish}} (int s, int t)
+\item 
+int \mbox{\hyperlink{classGraph_a56cdd7f675f062addabe59b0963fb6cf}{min\+Duration\+All}} (int s, int t)
+\item 
+int \mbox{\hyperlink{classGraph_a524f16b48f546b7d67822c74a7e6cc23}{latest\+Finish\+All}} (int s, int t)
+\item 
+\mbox{\Hypertarget{classGraph_a0055beac60737ff46e6cecc4eb4dfa4e}\label{classGraph_a0055beac60737ff46e6cecc4eb4dfa4e}} 
+vector$<$ int $>$ {\bfseries get\+Distances} ()
+\item 
+\mbox{\Hypertarget{classGraph_ac31c88d76953af83c089d38677048c04}\label{classGraph_ac31c88d76953af83c089d38677048c04}} 
+int {\bfseries get\+Duration} (int a, int b)
+\item 
+\mbox{\Hypertarget{classGraph_a7249c6c6ec334824b83d7fcfc1dd1dc9}\label{classGraph_a7249c6c6ec334824b83d7fcfc1dd1dc9}} 
+void {\bfseries Max\+Cap\+Ways\+With\+Use} (int s)
+\item 
+\mbox{\Hypertarget{classGraph_aacb91b2e40e822f64cffa459295b5872}\label{classGraph_aacb91b2e40e822f64cffa459295b5872}} 
+void {\bfseries set\+Path} (vector$<$ int $>$ vector1)
+\item 
+\mbox{\Hypertarget{classGraph_ac6b4aeef809ce01e1960a59c1263d860}\label{classGraph_ac6b4aeef809ce01e1960a59c1263d860}} 
+int {\bfseries unused\+Nodes} ()
+\item 
+\mbox{\Hypertarget{classGraph_af37c6c21363b160d087c94b8635ba306}\label{classGraph_af37c6c21363b160d087c94b8635ba306}} 
+void {\bfseries set\+Use\+Node} ()
+\item 
+\mbox{\Hypertarget{classGraph_a18b4f6dec368300991b68dd75e39a5e9}\label{classGraph_a18b4f6dec368300991b68dd75e39a5e9}} 
+{\bfseries Graph} (int nodes, bool dir=false)
+\item 
+\mbox{\Hypertarget{classGraph_a5d2bb0f898705aeb7e03cce1aa330ef1}\label{classGraph_a5d2bb0f898705aeb7e03cce1aa330ef1}} 
+void {\bfseries add\+Edge} (int src, int dest, int weight=1, int capacity=1, int flow=0)
+\item 
+\mbox{\Hypertarget{classGraph_a0b8af8ed6acdd35d9321742c7ffa4950}\label{classGraph_a0b8af8ed6acdd35d9321742c7ffa4950}} 
+int {\bfseries dfs} (int v)
+\item 
+\mbox{\Hypertarget{classGraph_ae1e45e27c60711dadec619ca17e830a4}\label{classGraph_ae1e45e27c60711dadec619ca17e830a4}} 
+void {\bfseries bfs} (int v)
+\item 
+\mbox{\Hypertarget{classGraph_a123f0ac78e14c525497eca977c236203}\label{classGraph_a123f0ac78e14c525497eca977c236203}} 
+int {\bfseries out\+Degree} (int v)
+\item 
+\mbox{\Hypertarget{classGraph_a684873414628f08f55ed4a08e9172255}\label{classGraph_a684873414628f08f55ed4a08e9172255}} 
+int {\bfseries connected\+Components} ()
+\item 
+\mbox{\Hypertarget{classGraph_a48592906cce9eba131297fd7bdad844f}\label{classGraph_a48592906cce9eba131297fd7bdad844f}} 
+int {\bfseries giant\+Component} ()
+\item 
+\mbox{\Hypertarget{classGraph_a235491292596989f94a5ffb1823658f8}\label{classGraph_a235491292596989f94a5ffb1823658f8}} 
+void {\bfseries dfshelper} (int v, list$<$ int $>$ \&order)
+\item 
+\mbox{\Hypertarget{classGraph_ab84a96704f2cd38df55fac039953f913}\label{classGraph_ab84a96704f2cd38df55fac039953f913}} 
+list$<$ int $>$ {\bfseries topological\+Sorting} ()
+\item 
+\mbox{\Hypertarget{classGraph_aa954eef9c67ab297359f397dccd256a1}\label{classGraph_aa954eef9c67ab297359f397dccd256a1}} 
+void {\bfseries bfshelper} (int a)
+\item 
+\mbox{\Hypertarget{classGraph_a5a816844b989c28c01b97015ab8868e4}\label{classGraph_a5a816844b989c28c01b97015ab8868e4}} 
+int {\bfseries distance} (int a, int b)
+\item 
+\mbox{\Hypertarget{classGraph_a6fc336837e93d78a359a21778cbf7c8f}\label{classGraph_a6fc336837e93d78a359a21778cbf7c8f}} 
+int {\bfseries diameter} ()
+\item 
+\mbox{\Hypertarget{classGraph_a6fcbfa381804b43a67d92eed7f30e1d9}\label{classGraph_a6fcbfa381804b43a67d92eed7f30e1d9}} 
+bool {\bfseries has\+Cycle} ()
+\item 
+\mbox{\Hypertarget{classGraph_a933dd268746d3282763107f36e201a5c}\label{classGraph_a933dd268746d3282763107f36e201a5c}} 
+int {\bfseries prim} (int v)
+\item 
+\mbox{\Hypertarget{classGraph_a9cd51c99a19723e973baf40c2a1a1b01}\label{classGraph_a9cd51c99a19723e973baf40c2a1a1b01}} 
+int {\bfseries kruskal} ()
+\item 
+\mbox{\Hypertarget{classGraph_aac0f2ab27544ba9824d8296c8145bb23}\label{classGraph_aac0f2ab27544ba9824d8296c8145bb23}} 
+int {\bfseries find\+Duration} (int from, int to)
+\item 
+\mbox{\Hypertarget{classGraph_a702af2d2fffe8abbcf0fc17894d9efcd}\label{classGraph_a702af2d2fffe8abbcf0fc17894d9efcd}} 
+int {\bfseries print\+Directions} ()
+\item 
+\mbox{\Hypertarget{classGraph_a34a9f8a7c250462198fa9e35d34c06d4}\label{classGraph_a34a9f8a7c250462198fa9e35d34c06d4}} 
+void {\bfseries Max\+Cap\+Ways} (int s)
+\item 
+\mbox{\Hypertarget{classGraph_af162b61dd45319061f35f8b191e528ac}\label{classGraph_af162b61dd45319061f35f8b191e528ac}} 
+void {\bfseries get\+Path} (vector$<$ int $>$ $\ast$p\+Vector, int t)
+\item 
+\mbox{\Hypertarget{classGraph_aaa391e62644dc0ea8011e84f882abf84}\label{classGraph_aaa391e62644dc0ea8011e84f882abf84}} 
+int {\bfseries path\+Capacity} (vector$<$ int $>$ vector1)
+\item 
+\mbox{\hyperlink{classGraph}{Graph}} \mbox{\hyperlink{classGraph_a0e159c2e0be10c37b9983dfafc8903e0}{create\+Residual}} ()
+\item 
+\mbox{\hyperlink{classGraph}{Graph}} \mbox{\hyperlink{classGraph_a84f2fe6403b71222fa347b293df61db1}{create\+Transpose}} ()
+\item 
+\mbox{\Hypertarget{classGraph_a7d04e6b49a5c8f42919bd016fd630b68}\label{classGraph_a7d04e6b49a5c8f42919bd016fd630b68}} 
+int {\bfseries get\+Time} (vector$<$ int $>$ vector1, int limit=-\/1)
+\item 
+\mbox{\Hypertarget{classGraph_a1f68e0f325a61812ecb8e9249b6b03b0}\label{classGraph_a1f68e0f325a61812ecb8e9249b6b03b0}} 
+int {\bfseries check\+Max\+Cap} (vector$<$ vector$<$ int $>$$>$ paths)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classGraph_a829649fdfc224e96618e124af8d9b49e}{ford\+Fulkerson}} (\mbox{\hyperlink{classGraph}{Graph}} \&residual, int s, int t, vector$<$ vector$<$ int $>$$>$ $\ast$paths, int dimension=-\/1)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraph_a0e159c2e0be10c37b9983dfafc8903e0}\label{classGraph_a0e159c2e0be10c37b9983dfafc8903e0}} 
+\index{Graph@{Graph}!createResidual@{createResidual}}
+\index{createResidual@{createResidual}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{createResidual()}{createResidual()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph}{Graph}} Graph\+::create\+Residual (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Cria um grafo residual \mbox{\Hypertarget{classGraph_a84f2fe6403b71222fa347b293df61db1}\label{classGraph_a84f2fe6403b71222fa347b293df61db1}} 
+\index{Graph@{Graph}!createTranspose@{createTranspose}}
+\index{createTranspose@{createTranspose}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{createTranspose()}{createTranspose()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph}{Graph}} Graph\+::create\+Transpose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Cria um grafo transposto \mbox{\Hypertarget{classGraph_a829649fdfc224e96618e124af8d9b49e}\label{classGraph_a829649fdfc224e96618e124af8d9b49e}} 
+\index{Graph@{Graph}!fordFulkerson@{fordFulkerson}}
+\index{fordFulkerson@{fordFulkerson}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{fordFulkerson()}{fordFulkerson()}}
+{\footnotesize\ttfamily int Graph\+::ford\+Fulkerson (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph}{Graph}} \&}]{residual,  }\item[{int}]{s,  }\item[{int}]{t,  }\item[{vector$<$ vector$<$ int $>$$>$ $\ast$}]{paths,  }\item[{int}]{dimension = {\ttfamily -\/1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Edmonds-\/\+Karp implementação através do ford\+Fulkerson 
+\begin{DoxyParams}{Parameters}
+{\em residual} & \\
+\hline
+{\em s} & \\
+\hline
+{\em t} & \\
+\hline
+{\em paths} & \\
+\hline
+{\em dimension} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_af517ce2e9eb2cb0a550adcf6ec79daff}\label{classGraph_af517ce2e9eb2cb0a550adcf6ec79daff}} 
+\index{Graph@{Graph}!latestFinish@{latestFinish}}
+\index{latestFinish@{latestFinish}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{latestFinish()}{latestFinish()}}
+{\footnotesize\ttfamily int Graph\+::latest\+Finish (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{t }\end{DoxyParamCaption})}
+
+Retorna tempo máxima espera 
+\begin{DoxyParams}{Parameters}
+{\em s} & no inicial \\
+\hline
+{\em t} & no final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a duração minima 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_a524f16b48f546b7d67822c74a7e6cc23}\label{classGraph_a524f16b48f546b7d67822c74a7e6cc23}} 
+\index{Graph@{Graph}!latestFinishAll@{latestFinishAll}}
+\index{latestFinishAll@{latestFinishAll}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{latestFinishAll()}{latestFinishAll()}}
+{\footnotesize\ttfamily int Graph\+::latest\+Finish\+All (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{t }\end{DoxyParamCaption})}
+
+Retorna tempo máxima espera (Grafo Inteiro) 
+\begin{DoxyParams}{Parameters}
+{\em s} & no inicial \\
+\hline
+{\em t} & no final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a duração minima 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_abd7ac2706672c24da045244b21f78dff}\label{classGraph_abd7ac2706672c24da045244b21f78dff}} 
+\index{Graph@{Graph}!minDuration@{minDuration}}
+\index{minDuration@{minDuration}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{minDuration()}{minDuration()}}
+{\footnotesize\ttfamily int Graph\+::min\+Duration (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{t }\end{DoxyParamCaption})}
+
+Retorna a duração minima para o caminho entre s$<$-\/$>$t 
+\begin{DoxyParams}{Parameters}
+{\em s} & no inicial \\
+\hline
+{\em t} & no final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a duração minima 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_a56cdd7f675f062addabe59b0963fb6cf}\label{classGraph_a56cdd7f675f062addabe59b0963fb6cf}} 
+\index{Graph@{Graph}!minDurationAll@{minDurationAll}}
+\index{minDurationAll@{minDurationAll}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{minDurationAll()}{minDurationAll()}}
+{\footnotesize\ttfamily int Graph\+::min\+Duration\+All (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{t }\end{DoxyParamCaption})}
+
+Retorna a duração minima para o caminho entre s$<$-\/$>$t (Grafo Inteiro) 
+\begin{DoxyParams}{Parameters}
+{\em s} & no inicial \\
+\hline
+{\em t} & no final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a duração minima 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+codigo/graph.\+h\item 
+codigo/graph.\+cpp\end{DoxyCompactItemize}

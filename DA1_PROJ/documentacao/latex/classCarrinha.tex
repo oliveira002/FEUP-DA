@@ -1,0 +1,188 @@
+\hypertarget{classCarrinha}{}\doxysection{Carrinha Class Reference}
+\label{classCarrinha}\index{Carrinha@{Carrinha}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCarrinha_a2d2b4b926d481b46d7366e7956c9e75e}{Carrinha}} (unsigned int vol\+Max, unsigned int peso\+Max, unsigned int custo)
+\item 
+int \mbox{\hyperlink{classCarrinha_ab15c9b35249eec5306bc6746cde2b3a5}{adicionar\+Encomenda}} (\mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$encomenda)
+\item 
+int \mbox{\hyperlink{classCarrinha_ab3595004796cd7fe305334cd9654de2e}{verifica\+Disponibilidade}} (\mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$encomenda) const
+\item 
+unsigned int \mbox{\hyperlink{classCarrinha_aa1ed3d9d13c34dd0fe0f4973c0f0c46f}{get\+Vol\+Max}} () const
+\item 
+unsigned int \mbox{\hyperlink{classCarrinha_aa8100d01da5bbd7506bf92159c0010b7}{get\+Peso\+Max}} () const
+\item 
+unsigned int \mbox{\hyperlink{classCarrinha_abcdf0c28990378606d8ba45c349f801d}{get\+Custo}} () const
+\item 
+unsigned int \mbox{\hyperlink{classCarrinha_adc1be10ab88dff7443980d8624f34f85}{get\+Vol}} () const
+\item 
+unsigned int \mbox{\hyperlink{classCarrinha_a12ccafbc8fc11c272f9a845c435a687a}{get\+Peso}} () const
+\item 
+int \mbox{\hyperlink{classCarrinha_a3ed8141896e584b943796c96de65dfee}{get\+Balanco}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classCarrinha_aa7c2a5d0e4cd1874daf80bc32b4f7d0a}{get\+Encomendas}} ()
+\item 
+void \mbox{\hyperlink{classCarrinha_a52afb66446feb3eedc804049d59f9557}{set\+Var\+Decisiva}} (double peso\+\_\+peso, double peso\+\_\+vol)
+\item 
+double \mbox{\hyperlink{classCarrinha_a4da27f568513720d3264691b22cbb82f}{get\+Var\+Decisiva}} () const
+\item 
+void \mbox{\hyperlink{classCarrinha_ac2e5c2eab84f61bd949a5012afebe815}{clear\+Encomendas}} ()
+\item 
+double \mbox{\hyperlink{classCarrinha_ac812d970713c1ec79f6e0732196b05c2}{get\+Custo\+Unidade}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCarrinha_a2d2b4b926d481b46d7366e7956c9e75e}\label{classCarrinha_a2d2b4b926d481b46d7366e7956c9e75e}} 
+\index{Carrinha@{Carrinha}!Carrinha@{Carrinha}}
+\index{Carrinha@{Carrinha}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{Carrinha()}{Carrinha()}}
+{\footnotesize\ttfamily Carrinha\+::\+Carrinha (\begin{DoxyParamCaption}\item[{unsigned int}]{vol\+Max,  }\item[{unsigned int}]{peso\+Max,  }\item[{unsigned int}]{custo }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classCarrinha}{Carrinha}} 
+\begin{DoxyParams}{Parameters}
+{\em vol\+Max} & volume maximo \\
+\hline
+{\em peso\+Max} & peso maximo \\
+\hline
+{\em custo} & custo \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCarrinha_ab15c9b35249eec5306bc6746cde2b3a5}\label{classCarrinha_ab15c9b35249eec5306bc6746cde2b3a5}} 
+\index{Carrinha@{Carrinha}!adicionarEncomenda@{adicionarEncomenda}}
+\index{adicionarEncomenda@{adicionarEncomenda}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{adicionarEncomenda()}{adicionarEncomenda()}}
+{\footnotesize\ttfamily int Carrinha\+::adicionar\+Encomenda (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$}]{encomenda }\end{DoxyParamCaption})}
+
+Adicionar encomenda para transporte 
+\begin{DoxyParams}{Parameters}
+{\em encomenda} & encomenda a ser transportada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 se for possivel adicionar a encomenda a carrinha 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_ac2e5c2eab84f61bd949a5012afebe815}\label{classCarrinha_ac2e5c2eab84f61bd949a5012afebe815}} 
+\index{Carrinha@{Carrinha}!clearEncomendas@{clearEncomendas}}
+\index{clearEncomendas@{clearEncomendas}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{clearEncomendas()}{clearEncomendas()}}
+{\footnotesize\ttfamily void Carrinha\+::clear\+Encomendas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Limpa encomendas da carrinha; \mbox{\Hypertarget{classCarrinha_a3ed8141896e584b943796c96de65dfee}\label{classCarrinha_a3ed8141896e584b943796c96de65dfee}} 
+\index{Carrinha@{Carrinha}!getBalanco@{getBalanco}}
+\index{getBalanco@{getBalanco}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getBalanco()}{getBalanco()}}
+{\footnotesize\ttfamily int Carrinha\+::get\+Balanco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna balanco atual \begin{DoxyReturn}{Returns}
+balanco 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_abcdf0c28990378606d8ba45c349f801d}\label{classCarrinha_abcdf0c28990378606d8ba45c349f801d}} 
+\index{Carrinha@{Carrinha}!getCusto@{getCusto}}
+\index{getCusto@{getCusto}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getCusto()}{getCusto()}}
+{\footnotesize\ttfamily unsigned int Carrinha\+::get\+Custo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna custo do transporte \begin{DoxyReturn}{Returns}
+custo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_ac812d970713c1ec79f6e0732196b05c2}\label{classCarrinha_ac812d970713c1ec79f6e0732196b05c2}} 
+\index{Carrinha@{Carrinha}!getCustoUnidade@{getCustoUnidade}}
+\index{getCustoUnidade@{getCustoUnidade}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getCustoUnidade()}{getCustoUnidade()}}
+{\footnotesize\ttfamily double Carrinha\+::get\+Custo\+Unidade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna variavel recompensa/var\+\_\+decisiva \begin{DoxyReturn}{Returns}
+Recompensa por Unidade 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_aa7c2a5d0e4cd1874daf80bc32b4f7d0a}\label{classCarrinha_aa7c2a5d0e4cd1874daf80bc32b4f7d0a}} 
+\index{Carrinha@{Carrinha}!getEncomendas@{getEncomendas}}
+\index{getEncomendas@{getEncomendas}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getEncomendas()}{getEncomendas()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$$>$$\ast$ Carrinha\+::get\+Encomendas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna vetor de encomendas \begin{DoxyReturn}{Returns}
+encomendas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_a12ccafbc8fc11c272f9a845c435a687a}\label{classCarrinha_a12ccafbc8fc11c272f9a845c435a687a}} 
+\index{Carrinha@{Carrinha}!getPeso@{getPeso}}
+\index{getPeso@{getPeso}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getPeso()}{getPeso()}}
+{\footnotesize\ttfamily unsigned int Carrinha\+::get\+Peso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna peso atual \begin{DoxyReturn}{Returns}
+peso 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_aa8100d01da5bbd7506bf92159c0010b7}\label{classCarrinha_aa8100d01da5bbd7506bf92159c0010b7}} 
+\index{Carrinha@{Carrinha}!getPesoMax@{getPesoMax}}
+\index{getPesoMax@{getPesoMax}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getPesoMax()}{getPesoMax()}}
+{\footnotesize\ttfamily unsigned int Carrinha\+::get\+Peso\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna peso maximo da carrinha \begin{DoxyReturn}{Returns}
+peso maximo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_a4da27f568513720d3264691b22cbb82f}\label{classCarrinha_a4da27f568513720d3264691b22cbb82f}} 
+\index{Carrinha@{Carrinha}!getVarDecisiva@{getVarDecisiva}}
+\index{getVarDecisiva@{getVarDecisiva}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getVarDecisiva()}{getVarDecisiva()}}
+{\footnotesize\ttfamily double Carrinha\+::get\+Var\+Decisiva (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna variavel decisiva \begin{DoxyReturn}{Returns}
+var\+\_\+decisiva 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_adc1be10ab88dff7443980d8624f34f85}\label{classCarrinha_adc1be10ab88dff7443980d8624f34f85}} 
+\index{Carrinha@{Carrinha}!getVol@{getVol}}
+\index{getVol@{getVol}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getVol()}{getVol()}}
+{\footnotesize\ttfamily unsigned int Carrinha\+::get\+Vol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna volume atual \begin{DoxyReturn}{Returns}
+volume 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_aa1ed3d9d13c34dd0fe0f4973c0f0c46f}\label{classCarrinha_aa1ed3d9d13c34dd0fe0f4973c0f0c46f}} 
+\index{Carrinha@{Carrinha}!getVolMax@{getVolMax}}
+\index{getVolMax@{getVolMax}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{getVolMax()}{getVolMax()}}
+{\footnotesize\ttfamily unsigned int Carrinha\+::get\+Vol\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna volume maximo da carrinha \begin{DoxyReturn}{Returns}
+volume maximo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarrinha_a52afb66446feb3eedc804049d59f9557}\label{classCarrinha_a52afb66446feb3eedc804049d59f9557}} 
+\index{Carrinha@{Carrinha}!setVarDecisiva@{setVarDecisiva}}
+\index{setVarDecisiva@{setVarDecisiva}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{setVarDecisiva()}{setVarDecisiva()}}
+{\footnotesize\ttfamily void Carrinha\+::set\+Var\+Decisiva (\begin{DoxyParamCaption}\item[{double}]{peso\+\_\+peso,  }\item[{double}]{peso\+\_\+vol }\end{DoxyParamCaption})}
+
+Define variável decisiva, balanço entre peso e volume 
+\begin{DoxyParams}{Parameters}
+{\em peso\+\_\+peso} & percentagem do peso \\
+\hline
+{\em peso\+\_\+vol} & percentagem do volume \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCarrinha_ab3595004796cd7fe305334cd9654de2e}\label{classCarrinha_ab3595004796cd7fe305334cd9654de2e}} 
+\index{Carrinha@{Carrinha}!verificaDisponibilidade@{verificaDisponibilidade}}
+\index{verificaDisponibilidade@{verificaDisponibilidade}!Carrinha@{Carrinha}}
+\doxysubsubsection{\texorpdfstring{verificaDisponibilidade()}{verificaDisponibilidade()}}
+{\footnotesize\ttfamily int Carrinha\+::verifica\+Disponibilidade (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$}]{encomenda }\end{DoxyParamCaption}) const}
+
+Verifica se consegue adicionar encomenda a carrinha 
+\begin{DoxyParams}{Parameters}
+{\em encomenda} & encomenda a verificar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 se for possivel adicionar 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+codigo/carrinha.\+h\item 
+codigo/carrinha.\+cpp\end{DoxyCompactItemize}

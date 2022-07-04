@@ -1,0 +1,160 @@
+\hypertarget{classEncomenda}{}\doxysection{Encomenda Class Reference}
+\label{classEncomenda}\index{Encomenda@{Encomenda}}
+
+
+Inheritance diagram for Encomenda\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEncomenda_aa8becfb9df9c44ab5c3189e9d8634511}{Encomenda}} (unsigned int vol, unsigned int peso, unsigned int recompensa)
+\item 
+virtual \mbox{\hyperlink{classEncomenda_a8bbc33a2746cec70ddeeb1e2c9eadf8a}{$\sim$\+Encomenda}} ()=default
+\item 
+unsigned int \mbox{\hyperlink{classEncomenda_a51ed607d33f2dc42d59b12a0e4731988}{get\+Vol}} () const
+\item 
+unsigned int \mbox{\hyperlink{classEncomenda_a1625a3e8b10501da0c374c77e384eafa}{get\+Peso}} () const
+\item 
+unsigned int \mbox{\hyperlink{classEncomenda_ad867370508332fa319002ba2a9fb1717}{get\+Recompensa}} () const
+\item 
+bool \mbox{\hyperlink{classEncomenda_aae325a54f87891ecdf500b2370d2f290}{get\+Prioridade}} () const
+\item 
+bool \mbox{\hyperlink{classEncomenda_ab120620d18fb0380733510191d038510}{get\+Estado}} () const
+\item 
+void \mbox{\hyperlink{classEncomenda_a0b3526c9bcca9c6a306efcff02c61bb4}{set\+Prioridade}} (bool const \+\_\+prioridade)
+\item 
+void \mbox{\hyperlink{classEncomenda_aaf6b3911c407a0278b9023d8aaf83d35}{set\+Estado}} (bool const \+\_\+entregue)
+\item 
+void \mbox{\hyperlink{classEncomenda_a61423ad118d92966cd17d4f859506e62}{set\+Var\+Decisiva}} (double peso\+\_\+peso, double peso\+\_\+vol)
+\item 
+double \mbox{\hyperlink{classEncomenda_af30c9556a5dc308e80764627826c59b8}{get\+Var\+Decisiva}} () const
+\item 
+double \mbox{\hyperlink{classEncomenda_a0dcdf47f16818c9b69a239d3734f60eb}{get\+Recompensa\+Unidade}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEncomenda_aa8becfb9df9c44ab5c3189e9d8634511}\label{classEncomenda_aa8becfb9df9c44ab5c3189e9d8634511}} 
+\index{Encomenda@{Encomenda}!Encomenda@{Encomenda}}
+\index{Encomenda@{Encomenda}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{Encomenda()}{Encomenda()}}
+{\footnotesize\ttfamily Encomenda\+::\+Encomenda (\begin{DoxyParamCaption}\item[{unsigned int}]{vol,  }\item[{unsigned int}]{peso,  }\item[{unsigned int}]{recompensa }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classEncomenda}{Encomenda}} 
+\begin{DoxyParams}{Parameters}
+{\em recompensa} & recompensa da encomenda \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEncomenda_a8bbc33a2746cec70ddeeb1e2c9eadf8a}\label{classEncomenda_a8bbc33a2746cec70ddeeb1e2c9eadf8a}} 
+\index{Encomenda@{Encomenda}!````~Encomenda@{$\sim$Encomenda}}
+\index{````~Encomenda@{$\sim$Encomenda}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{$\sim$Encomenda()}{~Encomenda()}}
+{\footnotesize\ttfamily virtual Encomenda\+::$\sim$\+Encomenda (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+Desconstrutor do objeto \mbox{\hyperlink{classEncomenda}{Encomenda}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEncomenda_ab120620d18fb0380733510191d038510}\label{classEncomenda_ab120620d18fb0380733510191d038510}} 
+\index{Encomenda@{Encomenda}!getEstado@{getEstado}}
+\index{getEstado@{getEstado}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getEstado()}{getEstado()}}
+{\footnotesize\ttfamily bool Encomenda\+::get\+Estado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna estado da encomenda \begin{DoxyReturn}{Returns}
+entregue 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_a1625a3e8b10501da0c374c77e384eafa}\label{classEncomenda_a1625a3e8b10501da0c374c77e384eafa}} 
+\index{Encomenda@{Encomenda}!getPeso@{getPeso}}
+\index{getPeso@{getPeso}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getPeso()}{getPeso()}}
+{\footnotesize\ttfamily unsigned int Encomenda\+::get\+Peso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna peso da encomenda \begin{DoxyReturn}{Returns}
+peso 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_aae325a54f87891ecdf500b2370d2f290}\label{classEncomenda_aae325a54f87891ecdf500b2370d2f290}} 
+\index{Encomenda@{Encomenda}!getPrioridade@{getPrioridade}}
+\index{getPrioridade@{getPrioridade}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getPrioridade()}{getPrioridade()}}
+{\footnotesize\ttfamily bool Encomenda\+::get\+Prioridade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna se encomenda tem prioridade \begin{DoxyReturn}{Returns}
+prioridade 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_ad867370508332fa319002ba2a9fb1717}\label{classEncomenda_ad867370508332fa319002ba2a9fb1717}} 
+\index{Encomenda@{Encomenda}!getRecompensa@{getRecompensa}}
+\index{getRecompensa@{getRecompensa}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getRecompensa()}{getRecompensa()}}
+{\footnotesize\ttfamily unsigned int Encomenda\+::get\+Recompensa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna recompensa da encomenda \begin{DoxyReturn}{Returns}
+recompensa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_a0dcdf47f16818c9b69a239d3734f60eb}\label{classEncomenda_a0dcdf47f16818c9b69a239d3734f60eb}} 
+\index{Encomenda@{Encomenda}!getRecompensaUnidade@{getRecompensaUnidade}}
+\index{getRecompensaUnidade@{getRecompensaUnidade}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getRecompensaUnidade()}{getRecompensaUnidade()}}
+{\footnotesize\ttfamily double Encomenda\+::get\+Recompensa\+Unidade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna variavel recompensa/var\+\_\+decisiva \begin{DoxyReturn}{Returns}
+Recompensa por Unidade 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_af30c9556a5dc308e80764627826c59b8}\label{classEncomenda_af30c9556a5dc308e80764627826c59b8}} 
+\index{Encomenda@{Encomenda}!getVarDecisiva@{getVarDecisiva}}
+\index{getVarDecisiva@{getVarDecisiva}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getVarDecisiva()}{getVarDecisiva()}}
+{\footnotesize\ttfamily double Encomenda\+::get\+Var\+Decisiva (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna variavel decisiva \begin{DoxyReturn}{Returns}
+var\+\_\+decisiva 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_a51ed607d33f2dc42d59b12a0e4731988}\label{classEncomenda_a51ed607d33f2dc42d59b12a0e4731988}} 
+\index{Encomenda@{Encomenda}!getVol@{getVol}}
+\index{getVol@{getVol}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{getVol()}{getVol()}}
+{\footnotesize\ttfamily unsigned int Encomenda\+::get\+Vol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna volume da encomenda \begin{DoxyReturn}{Returns}
+volume 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEncomenda_aaf6b3911c407a0278b9023d8aaf83d35}\label{classEncomenda_aaf6b3911c407a0278b9023d8aaf83d35}} 
+\index{Encomenda@{Encomenda}!setEstado@{setEstado}}
+\index{setEstado@{setEstado}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{setEstado()}{setEstado()}}
+{\footnotesize\ttfamily void Encomenda\+::set\+Estado (\begin{DoxyParamCaption}\item[{bool const}]{\+\_\+entregue }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Define estado da entrega 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+entregue} & entregue \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEncomenda_a0b3526c9bcca9c6a306efcff02c61bb4}\label{classEncomenda_a0b3526c9bcca9c6a306efcff02c61bb4}} 
+\index{Encomenda@{Encomenda}!setPrioridade@{setPrioridade}}
+\index{setPrioridade@{setPrioridade}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{setPrioridade()}{setPrioridade()}}
+{\footnotesize\ttfamily void Encomenda\+::set\+Prioridade (\begin{DoxyParamCaption}\item[{bool const}]{\+\_\+prioridade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Define prioridade da entrega 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+prioridade} & prioridade \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEncomenda_a61423ad118d92966cd17d4f859506e62}\label{classEncomenda_a61423ad118d92966cd17d4f859506e62}} 
+\index{Encomenda@{Encomenda}!setVarDecisiva@{setVarDecisiva}}
+\index{setVarDecisiva@{setVarDecisiva}!Encomenda@{Encomenda}}
+\doxysubsubsection{\texorpdfstring{setVarDecisiva()}{setVarDecisiva()}}
+{\footnotesize\ttfamily void Encomenda\+::set\+Var\+Decisiva (\begin{DoxyParamCaption}\item[{double}]{peso\+\_\+peso,  }\item[{double}]{peso\+\_\+vol }\end{DoxyParamCaption})}
+
+Define variável decisiva, balanço entre peso e volume 
+\begin{DoxyParams}{Parameters}
+{\em peso\+\_\+peso} & percentagem do peso \\
+\hline
+{\em peso\+\_\+vol} & percentagem do volume \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+codigo/encomenda.\+h\item 
+codigo/encomenda.\+cpp\end{DoxyCompactItemize}

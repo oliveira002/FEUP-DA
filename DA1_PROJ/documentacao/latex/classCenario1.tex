@@ -1,0 +1,100 @@
+\hypertarget{classCenario1}{}\doxysection{Cenario1 Class Reference}
+\label{classCenario1}\index{Cenario1@{Cenario1}}
+
+
+{\ttfamily \#include $<$cenarios.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCenario1_a65174c8f44b4234abde7ee589ccf1e18}{Cenario1}} (\mbox{\hyperlink{classEmpresa}{Empresa}} e)
+\item 
+int \mbox{\hyperlink{classCenario1_a979b6c5362486d064c51f7bbba9a0270}{first\+Fit}} ()
+\item 
+double \mbox{\hyperlink{classCenario1_a2730ca3e3d45a36dce24d924d75e1e12}{get\+Quocient}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classCenario1_ab08b53d3be303dac5139a1ddb45d5eba}{sort\+By\+Var\+Encomenda}} (const \mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$e1, const \mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$e2)
+\item 
+static bool \mbox{\hyperlink{classCenario1_ade083d04093e58c051cc1595a95d4842}{sort\+By\+Var\+Carrinha}} (const \mbox{\hyperlink{classCarrinha}{Carrinha}} $\ast$c1, const \mbox{\hyperlink{classCarrinha}{Carrinha}} $\ast$c2)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A soluçao do senario 1 vai ser usar Top-\/down Dynamic Programming with Memoization ou seja vamos usar uma soluçao recursiva que vai contruir uma tabela e cima para baixo cujo o tempo de execuçao é igual a uma soluçao Bottom-\/up Dynamic Programming a catch é que normalmente essas tabelas sao de 2 entradas. Nesta soluçao nos iremos ter que trabalhar inicialmente com uma soluçao de uma tabela de 3 entradas para compensar o facto de termos 2 constraints e mais tarde de 4 entradas para ter em conta as diferentes carrinhas 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCenario1_a65174c8f44b4234abde7ee589ccf1e18}\label{classCenario1_a65174c8f44b4234abde7ee589ccf1e18}} 
+\index{Cenario1@{Cenario1}!Cenario1@{Cenario1}}
+\index{Cenario1@{Cenario1}!Cenario1@{Cenario1}}
+\doxysubsubsection{\texorpdfstring{Cenario1()}{Cenario1()}}
+{\footnotesize\ttfamily Cenario1\+::\+Cenario1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEmpresa}{Empresa}}}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Constructor Montar argumentos necessarios para o funcionamento do cenario 1 
+\begin{DoxyParams}{Parameters}
+{\em e} & \mbox{\hyperlink{classEmpresa}{Empresa}} a ser estudada \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCenario1_a979b6c5362486d064c51f7bbba9a0270}\label{classCenario1_a979b6c5362486d064c51f7bbba9a0270}} 
+\index{Cenario1@{Cenario1}!firstFit@{firstFit}}
+\index{firstFit@{firstFit}!Cenario1@{Cenario1}}
+\doxysubsubsection{\texorpdfstring{firstFit()}{firstFit()}}
+{\footnotesize\ttfamily int Cenario1\+::first\+Fit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função responsável pelo job scheduling @complexity Time\+:O(\+C $\ast$ E); \begin{DoxyReturn}{Returns}
+tempo medio 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario1_a2730ca3e3d45a36dce24d924d75e1e12}\label{classCenario1_a2730ca3e3d45a36dce24d924d75e1e12}} 
+\index{Cenario1@{Cenario1}!getQuocient@{getQuocient}}
+\index{getQuocient@{getQuocient}!Cenario1@{Cenario1}}
+\doxysubsubsection{\texorpdfstring{getQuocient()}{getQuocient()}}
+{\footnotesize\ttfamily double Cenario1\+::get\+Quocient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Quocient encomendas entregues / total \begin{DoxyReturn}{Returns}
+quocientes entre as entregues e total 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario1_ade083d04093e58c051cc1595a95d4842}\label{classCenario1_ade083d04093e58c051cc1595a95d4842}} 
+\index{Cenario1@{Cenario1}!sortByVarCarrinha@{sortByVarCarrinha}}
+\index{sortByVarCarrinha@{sortByVarCarrinha}!Cenario1@{Cenario1}}
+\doxysubsubsection{\texorpdfstring{sortByVarCarrinha()}{sortByVarCarrinha()}}
+{\footnotesize\ttfamily bool Cenario1\+::sort\+By\+Var\+Carrinha (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCarrinha}{Carrinha}} $\ast$}]{c1,  }\item[{const \mbox{\hyperlink{classCarrinha}{Carrinha}} $\ast$}]{c2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Função para ordenar pela variavel decisivaunprofit, profit\+: 13218, custo\+: 13476
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & encomenda 1 \\
+\hline
+{\em c2} & encomenda 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCenario1_ab08b53d3be303dac5139a1ddb45d5eba}\label{classCenario1_ab08b53d3be303dac5139a1ddb45d5eba}} 
+\index{Cenario1@{Cenario1}!sortByVarEncomenda@{sortByVarEncomenda}}
+\index{sortByVarEncomenda@{sortByVarEncomenda}!Cenario1@{Cenario1}}
+\doxysubsubsection{\texorpdfstring{sortByVarEncomenda()}{sortByVarEncomenda()}}
+{\footnotesize\ttfamily bool Cenario1\+::sort\+By\+Var\+Encomenda (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$}]{e1,  }\item[{const \mbox{\hyperlink{classEncomenda}{Encomenda}} $\ast$}]{e2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Função para ordenar pela variavel decisiva 
+\begin{DoxyParams}{Parameters}
+{\em e1} & encomenda 1 \\
+\hline
+{\em e2} & encomenda 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+codigo/cenarios.\+h\item 
+codigo/cenario1.\+cpp\end{DoxyCompactItemize}
