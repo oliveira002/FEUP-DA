@@ -1,5 +1,7 @@
-# DA 21/22 Projects
-~ 1st project grade (17.00/20)
+# DA 21/22
 
-~ 2nd project grade (19.50/20)
+## Course Grades
 
+| | Project 1 | Project 2 |
+| --- | --- | --- |
+| Grade | **17.00** | **19.50**| 
